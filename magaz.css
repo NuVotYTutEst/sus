@@ -1,0 +1,271 @@
+body {
+margin: 0;
+color: #424242;
+
+}
+
+*{
+box-sizing: content-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+
+
+/*frame*/
+.frame1 {
+	width: 100%;
+	max-width:100%;	
+	margin: 0 auto;
+
+}
+
+
+/*картинка*/
+.картинка {
+	width: 100%;
+	height: 100vh;
+	background-color: #424242;
+	background-size: cover;
+}
+
+
+/*header*/
+.header {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.nav{
+	font-size: 26px;
+	text-align: right;
+}
+
+.nav__link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+	color: #878484;
+	text-decoration: none;
+
+	transition: color 0.1s linear;
+}
+
+
+
+.nav__link:hover {
+	color: #FE9800
+}
+nav {
+  padding: 16px 0;
+  background-color: #010101;
+}
+nav ul li {
+display: inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+.или{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+	color: #878484;
+	text-decoration: none;
+}
+
+.первое{
+	text-align: left
+}
+
+.квадрат{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 65px;
+top: 102px;
+}
+
+.sus {
+/* квадрат */
+
+position: absolute;
+width: 350px;
+height: 370px;
+left: 58px;
+top: 58px;
+background: #010101;
+}
+
+.knopka{
+/* кнопка */
+
+position: absolute;
+width: 179px;
+height: 34px;
+left: 78px;
+top: 288px;
+background: #2B2525;}
+
+.rub{
+/* 1400руб */
+
+position: absolute;
+    width: 179px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 64px;
+    text-align: center;
+    color: #BF5203;
+    text-decoration: none;
+
+}
+
+.bukvi{
+/* Защитник */
+
+position: absolute;
+width: 227px;
+height: 33px;
+left: 57px;
+top: -28px;
+
+font-weight: 600;
+font-size: 26px;
+line-height: 44px;
+text-align: center;
+color: #F27400;
+color: #F27400;
+    }
+
+.url{
+/* картинка танка 5 */
+position: absolute;
+    width: 312px;
+    height: 230px;
+    left: 9px;
+    top: 59px;
+    background: url(https://maprf.imgix.net/tanks/small/65073.png?auto=format,compress&w=300&h=300&q=0);
+
+}
+
+
+.квадрат2{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 700px;
+top: 102px;
+}
+
+.url2{
+/* картинка танка 5 */
+position: absolute;
+    width: 334px;
+    height: 236px;
+    left: 9px;
+    top: 36px;
+    background: url(https://maprf.imgix.net/tanks/small/47121.png?auto=format);
+
+}
+
+.квадрат3{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 1300px;
+top: 102px;
+}
+.url3{
+/* картинка танка 5 */
+position: absolute;
+    width: 300px;
+    height: 236px;
+    left: 9px;
+    top: 36px;
+    background: url(https://maprf.imgix.net/tanks/small/49665.png?auto=format);
+
+}
+
+.квадрат4{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 65px;
+top: 524px;
+}
+.url4{
+/* картинка танка 5 */
+position: absolute;
+    width: 310px;
+    height: 236px;
+    left: 9px;
+    top: 36px;
+    background: url(https://maprf.imgix.net/tanks/small/51057.png?auto=format,compress&w=300&h=300&q=0);
+
+}
+
+.квадрат5{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 700px;
+top: 524px;
+}
+.url5{
+/* картинка танка 5 */
+position: absolute;
+    width: 334px;
+    height: 236px;
+    left: 9px;
+    top: 36px;
+    background: url(https://maprf.imgix.net/tanks/small/54657.png?auto=format);
+
+}
+
+.квадрат6{
+	/* Frame 4 */
+
+position: absolute;
+width: 504px;
+height: 450px;
+left: 1300px;
+top: 524px;
+}
+.url6{
+/* картинка танка 5 */
+position: absolute;
+    width: 334px;
+    height: 236px;
+    left: 9px;
+    top: 36px;
+    background: url(https://maprf.imgix.net/tanks/small/60417.png?auto=format,compress&w=300&h=300&q=0);
+
+}
+
+
